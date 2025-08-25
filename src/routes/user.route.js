@@ -29,18 +29,18 @@ const router = express.Router();
 /**
  * @swagger
  * /api/users:
- * get:
- *  summary: Get all users
- *  tags: [Users]
- *  responses:
- *      200:
- *        description: List of all users
- *        content:
- *          application/json:
- *              schema:
- *                  type: array
- *                  items:
- *                      $ref: '#/components/schemas/User'
+ *   get:
+ *     summary: Get all users
+ *     tags: [Users]
+ *     responses:
+ *       200:
+ *         description: List of all users
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 $ref: '#/components/schemas/User'
  */
 
 router.get("/", (req, res) => {
