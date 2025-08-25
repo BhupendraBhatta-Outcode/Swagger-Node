@@ -16,9 +16,7 @@ You can view and test your API endpoints interactively using Swagger UI.
 - [Running the Server](#running-the-server)
 - [Swagger API Docs](#swagger-api-docs)
 - [Available Scripts](#available-scripts)
-- [Routes](#routes)
-- [Dependencies](#dependencies)
-- [License](#license)
+- [Routes](#api-routes)
 
 ---
 
